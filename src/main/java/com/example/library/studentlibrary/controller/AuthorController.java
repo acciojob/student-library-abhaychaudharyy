@@ -25,6 +25,6 @@ public class AuthorController {
         //return new RequestEntity<>("author is successfully added" , HttpStatus.CREATED);
         return new ResponseEntity<>("author is successfully added" , HttpStatus.CREATED);
     }
-    //RequestEntity likha tha
+
     //Write createAuthor API with required annotations
 }
