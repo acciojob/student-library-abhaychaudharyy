@@ -5,9 +5,11 @@ import com.example.library.studentlibrary.models.CardStatus;
 import com.example.library.studentlibrary.models.Student;
 import com.example.library.studentlibrary.repositories.CardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
+@Component
 public class CardService {
 
 
